@@ -23,8 +23,8 @@ from tornado.options import define, options
 define("port", default=8888, help="run on the given port", type=int)
 define("mysql_host", default="web02", help="database host")
 define("mysql_database", default="subversion", help="database name")
-define("mysql_user", default="deploy", help="database user")
-define("mysql_password", default="subversion@PASSWD", help="database password")
+define("mysql_user", default="test", help="database user")
+define("mysql_password", default="test@pass", help="database password")
 define("remote_user", default='www')
 define("admin_role", default='admin')
 
